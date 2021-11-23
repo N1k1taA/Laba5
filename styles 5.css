@@ -1,0 +1,66 @@
+html
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    margin: 0%;
+}
+/*Кнопка*/
+button
+{
+    padding:8px ;
+    margin: 20px 0 20px 340px;
+    background: linear-gradient(to top, rgb(0, 147, 0), rgb(0, 241, 0));
+    color: white;
+    border: none;
+}
+/*Текста*/
+h2
+{
+    margin: 0;
+    padding: 20px 20px 5px 20px;
+}
+p
+{
+    margin: 0;
+    padding: 0 20px 0 20px;
+}
+.content
+{
+    position: relative;
+    width: 45%;
+    margin: 0 auto 0 auto;
+    background-color:rgb(182, 245, 245);
+    border-bottom: 2px solid black;
+    box-shadow: 0px 0px 4px gray;
+}
+.content:hover
+{
+    background-color: rgb(255, 85, 85);
+}
+.newContent
+{
+  background-color: #e1ff73;
+  width: 500px;
+  padding: 15px;
+  position: fixed;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.newContent h1
+{
+  text-align: center;
+  display: block;
+  margin: 0;
+  margin-bottom: 30px;
+}
+#clickElem
+{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+}
